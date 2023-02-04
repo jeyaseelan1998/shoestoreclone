@@ -1,11 +1,19 @@
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+
 import Navigation from './components/navigation/Navigation';
+import Cart from './Routes/cart/Cart';
+
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navigation/>
-    </div>
+    <Routes>
+      <Route path='/' element={<Navigation/>}>
+        <Route index element={<p>Home</p>}/>
+        <Route path='wishlist' element={<p>Wishlist</p>}/>
+        <Route path='Cart' element={<Cart/>}/>
+      </Route>
+    </Routes>
   );
 }
 

@@ -2,6 +2,7 @@
     padding: 10px 25px 5px 25px;
     border-radius: 2px;
     background-color: #000;
+    cursor: pointer;
 }
 
 .auth-btn-txt {
@@ -11,6 +12,7 @@
 }
 
 .default-btn {
+    cursor: pointer;
     margin: 0 15px;
     display: flex;
     justify-content: space-around;
