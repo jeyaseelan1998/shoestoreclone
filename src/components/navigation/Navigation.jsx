@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import Cart from "../../Routes/cart/Cart";
 
@@ -18,7 +18,7 @@ const Navigation = () => {
     <>
       <nav className="nav-container">
         <div className="main-heading-container">
-          <Link to="/" className="main-heading">
+          <Link to="/"  className="main-heading">
             Shoe Store Clone
           </Link>
         </div>

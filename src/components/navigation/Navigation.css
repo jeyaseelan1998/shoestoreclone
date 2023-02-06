@@ -16,6 +16,10 @@
     font-weight: 600;
     font-size: 19px;
 }
+.main-heading:hover{
+    text-decoration: none;
+    color: black;
+}
 
 .nav{
     min-width: 20%;
