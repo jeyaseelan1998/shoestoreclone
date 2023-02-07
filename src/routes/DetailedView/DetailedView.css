@@ -1,0 +1,36 @@
+.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    padding-bottom: 20px;
+    background-size: cover;
+}
+
+.detailed-view-main-heading {
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card {
+    border-radius: 8px;
+    margin: 24px;
+    background-color: #fff;
+}
+
+.text-container {
+    padding: 16px;
+}
+
+.detailed-view-heading {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f0e46;
+}
+
+.detailed-view-description {
+    color: #6c6b70;
+    font-size: 13px;
+    font-family: Roboto;
+}
